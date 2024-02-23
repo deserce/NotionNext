@@ -270,7 +270,11 @@ function TodayCard({ cRef }) {
                     <div id='more' className='select-none'>更多推荐</div>
                 </div>
             </div>
-            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('http://p1.meituan.net/csc/1872479ff0ee65a81e58f54ef228994d504329.png') no-repeat center /cover" }}></div>
+  /**
+     * 主页右上角的大图
+     * 选用的api：https://t.mwm.moe/ycy
+     */
+            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://t.mwm.moe/ycy') no-repeat center /cover" }}></div>
         </div>
     </div>
 }
