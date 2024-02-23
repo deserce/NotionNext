@@ -203,19 +203,37 @@ const BLOG = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-    {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+     {
+      name: '离别开出花',
+      artist: '就是南方凯',
+      url: 'http://music.163.com/song/media/outer/url?id=2061978961.mp3',
       cover:
-            'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'http://p1.music.126.net/MgrERz_auwIi5Km64TxwjQ==/109951169154658797.jpg'
+    },{
+      name: '悬溺',
+      artist: '葛东琪',
+      url: 'http://m701.music.126.net/20240222185144/5e0f42440d807f97f08f2ec5077a2588/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32048585177/6b6c/5d5a/5702/5fcbec184e264b46b666e4696c724480.mp3',
+      cover:
+            'http://p2.music.126.net/CDhYcShQKH2VAMENuCxWWQ==/109951164166513349.jpg'
+    },{
+      name: '我属于你的注定',
+      artist: 'Zy',
+      url: 'http://m701.music.126.net/20240222185014/9cf1f2e0c239cefb82ed77f7046e2a2a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/33267663071/5dbd/3362/c98c/ef0926a1f8b8568064a8faf4314c063d.mp3',
+      cover:
+            'http://p2.music.126.net/0WHLmSNY4bNaiy6oVWGJ3w==/109951169300999067.jpg'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '安和桥',
+      artist: '宋冬野',
+      url: 'http://m801.music.126.net/20240222184915/deab50c8fe0c070a9781187d34f54d7a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096565708/7cf3/a99e/5a69/8993c40c4411d9bdbb90bc9ea61a5071.mp3',
       cover:
-            'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'http://p2.music.126.net/GcRunGm02vZBicYmIN6GXw==/109951163200249252.jpg'
+    },{
+      name: '向云端',
+      artist: '小霞 / 海洋Bo',
+      url: 'http://m801.music.126.net/20240223141715/d5c0dcd29f9fe18ef63784cac7702df7/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28133411236/dacd/1bb8/5f73/7b7bfa83f3783efac4dd8e56e627a33e.mp3',
+      cover:
+            'http://p2.music.126.net/TmOHxaGnFNlwNX8aPz66oA==/109951168638913915.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
