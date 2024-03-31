@@ -206,9 +206,9 @@ const BLOG = {
              {
                   name: '5:20AM',
                   artist: 'soldier',
-                  url: 'https://music.163.com/song/media/outer/url?id=2089409892.mp3',
+                  url: 'https://music.163.com/song/media/outer/url?id=2118204311.mp3',
                   cover:
-                        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/109951169280627594.jpg'
+                        'https://p2.music.126.net/ikK6NzU-bDRaZRMvU8i-Aw==/109951169280627594.jpg'
           },
             {
                   name: 'BACK SEAT',
