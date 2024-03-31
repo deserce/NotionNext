@@ -48,18 +48,6 @@ const Footer = ({ title }) => {
                 {/* <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} {BLOG.BIO && <>|</>} {BLOG.BIO}</h1> */}
 
             </div>
-  <div id="tcomment"></div>
-<script src="https://cdn.staticfile.org/twikoo/1.6.31/twikoo.all.min.js"></script>
-<script>
-twikoo.init({
-  envId: 'https://twikoomcy.netlify.app/',
-  el: '#tcomment', // 容器元素
-  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
-  lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
-})
-  PUSHOO_CHANNEL: telegram
-  PUSHOO_TOKEN: '6986385555:AAGdrLTt6Wo5TrI_RPlmHoTkM_Ph2QQ3Y6o'
-</script>
         </div>
   
         </footer >
