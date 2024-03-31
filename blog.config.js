@@ -203,6 +203,105 @@ const BLOG = {
       MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'random', // 默认播放方式，顺序 list，随机 random
       MUSIC_PLAYER_AUDIO_LIST: [
             // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
+             {
+      name: '5:20AM',
+      artist: 'soldier',
+      url: 'https://music.163.com/song/media/outer/url?id=2089409892.mp3',
+      cover:
+            'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/109951169280627594.jpg'
+    },{
+      name: 'BACK SEAT',
+      artist: 'CashMoon',
+      url: 'https://music.163.com/song/media/outer/url?id=2116533072.mp3',
+      cover:
+            'https://p1.music.126.net/VjZda3KOGzxlPhIqCfijNg==/109951169251921394.jpg'
+    },
+{
+      name: '☁️☁️☁️（0.8x）',
+      artist: '古灵',
+      url: 'https://music.163.com/song/media/outer/url?id=2068591545.mp3',
+      cover:
+            'https://p2.music.126.net/Vx31cx4yZzpXmex84dslvQ==/109951168780721154.jpg'
+    }
+  ,
+ {
+      name: 'BINGBIAN病变·2024',
+      artist: '刘大拿 / Tiko',
+      url: 'https://music.163.com/song/media/outer/url?id=2109685246.mp3',
+      cover:        'https://p1.music.126.net/q-3t36CBjYBIByW_GtlKdA==/109951169172482310.jpg'
+    },{
+      name: 'His Theme',
+      artist: 'Toby Fox',
+      url: 'https://music.163.com/song/media/outer/url?id=39227633.mp3',
+      cover:
+            'https://p2.music.126.net/mQcab-6L7D-w1lRxmYB7MQ==/109951168015051713.jpg'
+    },
+ {
+      name: '有形的翅膀',
+      artist: '张韶涵',
+      url: 'https://music.163.com/song/media/outer/url?id=25640409.mp3',
+      cover:
+     'https://p2.music.126.net/pcic3NwD7xdvHLvuT5jWWQ==/109951168308921434.jpg'
+    },
+{
+      name: '你想要的',
+      artist: '颜人中',
+      url: 'https://music.163.com/song/media/outer/url?id=1434309927.mp3',
+      cover:
+     'https://p2.music.126.net/OzDIi7gUmsPkRUtF-slgYA==/109951164844070975.jpg'
+    },
+{
+      name: '时空观影券',
+      artist: 'Tiko /  缪礼丞 /  粉太狼',
+      url: 'https://music.163.com/song/media/outer/url?id=2049529248.mp3',
+      cover:
+     'https://p1.music.126.net/8ad0ywcK7Ti_2_Q3Xrehmg==/109951168631980291.jpg'
+    },
+{
+      name: '我看了56次日落',
+      artist: ' ET /  邹念慈',
+      url: 'https://music.163.com/song/media/outer/url?id=1930608504.mp3',
+      cover:
+            'https://p2.music.126.net/1yXSsUxQM7bzkQ1trnkacw==/109951168067675793.jpg'
+    },
+    {
+      name: '南半球与北海道',
+      artist: ' 范倪Liu',
+      url: 'https://music.163.com/song/media/outer/url?id=1888215863.mp3',
+      cover:
+            'https://p1.music.126.net/JLJp2tVO743LUZp4DL94bw==/109951166535541790.jpg'
+    },
+    {
+      name: '唯一',
+      artist: 'G.E.M.邓紫棋',
+      url: 'https://music.163.com/song/media/outer/url?id=2083785152.mp3',
+      cover:
+            'https://p2.music.126.net/aJWtwvdYRXvKUpAE2C6NoA==/109951168919708423.jpg'
+    },
+    {
+      name: '阿拉斯加海湾',
+      artist: '蓝心羽',
+      url: 'https://music.163.com/song/media/outer/url?id=1500569811.mp3',
+      cover:
+            'https://p2.music.126.net/j9P19hOTNbYxLZDJB9bJag==/109951169385715334.jpg'
+    }
+  ],
+{
+      name: '虚拟',
+      artist: '陈粒',
+      url: 'https://music.163.com/song/media/outer/url?id=421423808.mp3',
+      cover:
+            'https://p2.music.126.net/HQxTggMCB7AHUXN-ZFEtmA==/1371091013186741.jpg'
+    },
+{
+      name: 'BACK SEAT',
+      artist: 'CashMoon',
+      url: 'https://music.163.com/song/media/outer/url?id=2116533072.mp3',
+      cover:
+            'https://p1.music.126.net/VjZda3KOGzxlPhIqCfijNg==/109951169251921394.jpg'
+    }
+  ,
+
             {
                   name: '离别开出花',
                   artist: '就是南方凯',
@@ -212,7 +311,7 @@ const BLOG = {
             }, {
                   name: '我想念',
                   artist: '汪苏泷',
-                  url: 'http://music.163.com/song/media/outer/url?id=2061978961.mp3',
+                  url: 'http://music.163.com/song/media/outer/url?id=2071935674.mp3',
                   cover:
                         'http://p1.music.126.net/MgrERz_auwIi5Km64TxwjQ==/109951169154658797.jpg'
             },
@@ -248,6 +347,12 @@ const BLOG = {
                   cover:
                         'http://p1.music.126.net/MgrERz_auwIi5Km64TxwjQ==/109951165076380471.jpg'
             }
+{
+      name: '我好像走不出来了',
+      artist: '欣恩的en',
+      url: 'https://music.163.com/song/media/outer/url?id=2005976120.mp3',
+      cover:   'https://p1.music.126.net/yNAQRz1kiEgk5IEdpDjhtg==/109951168133109966.jpg'
+    }
       ],
       MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
       MUSIC_PLAYER_METING_SERVER:
