@@ -107,9 +107,9 @@ const BLOG = {
       PRISM_JS_AUTO_LOADER: 'https://npm.elemecdn.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js',
 
       // 代码主题 @see https://github.com/PrismJS/prism-themes
-      PRISM_THEME_PREFIX_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH || 'https://npm.elemecdn.com/prism-themes/themes/prism-vsc-dark-plus.css', // 代码块默认主题
+      PRISM_THEME_PREFIX_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH || 'https://npm.elemecdn.com/prism-themes/themes/prism-dracula.css', // 代码块默认主题
       PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || true, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
-      PRISM_THEME_LIGHT_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_LIGHT_PATH || 'https://npm.elemecdn.com/prism-themes/themes/prism-vs.css', // 浅色模式主题
+      PRISM_THEME_LIGHT_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_LIGHT_PATH || 'https://npm.elemecdn.com/prism-themes/themes/prism-dracula.css', // 浅色模式主题
       PRISM_THEME_DARK_PATH: process.env.NEXT_PUBLIC_PRISM_THEME_DARK_PATH || 'https://npm.elemecdn.com/prism-themes/themes/prism-vsc-dark-plus.css', // 深色模式主题
 
       CODE_MAC_BAR: process.env.NEXT_PUBLIC_CODE_MAC_BAR || true, // 代码左上角显示mac的红黄绿图标
