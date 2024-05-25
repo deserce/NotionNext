@@ -19,7 +19,7 @@ const BLOG = {
 
       AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '茗辰原', // 您的昵称 例如 tangly1024
       BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
-      LINK: process.env.NEXT_PUBLIC_LINK || 'https://mingcy.xyz/', // 网站地址
+      LINK: process.env.NEXT_PUBLIC_LINK || 'https://not.mcy.cloudns.org', // 网站地址
       GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '无中生有为隐性, 隐性遗传看女病,父子皆病为伴性,女病父正非伴性',
 
       // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
