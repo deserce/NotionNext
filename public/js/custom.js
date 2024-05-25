@@ -17,3 +17,14 @@ container_core-min.js"></script>
 <script src="http://yui.yahooapis.com/2.8.0r4/build/button/button-min.js"></script>
 <script src="http://yui.yahooapis.com/2.8.0r4/build/editor/editor-min.js"></script>
 <script type="text/javascript"  src="HttpCombiner.ashx?s=jQueryScripts&t=text/javascript&v=1"></script>
+      <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.2/libs/oversea/index.js"></script>
+      <script>
+          new CozeWebSDK.WebChatClient({
+            config: {
+              bot_id: '7372883334173032464',
+            },
+            componentProps: {
+              title: 'Coze',
+            },
+          });
+      </script>
