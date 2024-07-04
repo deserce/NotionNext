@@ -178,11 +178,11 @@ const BLOG = {
 
       //   ********挂件组件相关********
       // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
-      CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || 7372883334173032464,
+      CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || ,
       // WebwhizAI 机器人 @see https://github.com/webwhiz-ai/webwhiz
       WEB_WHIZ_ENABLED: process.env.NEXT_PUBLIC_WEB_WHIZ_ENABLED || true, // 是否显示
-      WEB_WHIZ_BASE_URL: process.env.NEXT_PUBLIC_WEB_WHIZ_BASE_URL || 'https://www.coze.com', // 可以自建服务器
-      WEB_WHIZ_CHAT_BOT_ID: process.env.NEXT_PUBLIC_WEB_WHIZ_CHAT_BOT_ID || "7372883334173032464", // 在后台获取ID
+      WEB_WHIZ_BASE_URL: process.env.NEXT_PUBLIC_WEB_WHIZ_BASE_URL || 'https://api.link-ai.tech', // 可以自建服务器
+      WEB_WHIZ_CHAT_BOT_ID: process.env.NEXT_PUBLIC_WEB_WHIZ_CHAT_BOT_ID || "Link_ONy02Rp3EncdsviIPUW2nkO1RCbM3eZhIL67nwwQa7", // 在后台获取ID
 
       // 悬浮挂件
       WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
@@ -192,7 +192,7 @@ const BLOG = {
       WIDGET_PET_SWITCH_THEME: process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || true, // 点击宠物挂件切换博客主题
 
       // 音乐播放插件
-      MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || false, // 是否使用音乐播放插件
+      MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || true, // 是否使用音乐播放插件
       MUSIC_PLAYER_VISIBLE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_VISIBLE || true, // 是否在左下角显示播放和切换，如果使用播放器，打开自动播放再隐藏，就会以类似背景音乐的方式播放，无法取消和暂停
       MUSIC_PLAYER_AUTO_PLAY:
             process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || false, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
