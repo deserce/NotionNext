@@ -180,7 +180,7 @@ const BLOG = {
       // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
       CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || null,
       // WebwhizAI 机器人 @see https://github.com/webwhiz-ai/webwhiz
-      WEB_WHIZ_ENABLED: process.env.NEXT_PUBLIC_WEB_WHIZ_ENABLED || true, // 是否显示
+      WEB_WHIZ_ENABLED: process.env.NEXT_PUBLIC_WEB_WHIZ_ENABLED || false, // 是否显示
       WEB_WHIZ_BASE_URL: process.env.NEXT_PUBLIC_WEB_WHIZ_BASE_URL || 'https://api.link-ai.tech', // 可以自建服务器
       WEB_WHIZ_CHAT_BOT_ID: process.env.NEXT_PUBLIC_WEB_WHIZ_CHAT_BOT_ID || "Link_ONy02Rp3EncdsviIPUW2nkO1RCbM3eZhIL67nwwQa7", // 在后台获取ID
 
