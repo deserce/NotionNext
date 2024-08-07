@@ -203,7 +203,77 @@ const BLOG = {
       MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'random', // 默认播放方式，顺序 list，随机 random
       MUSIC_PLAYER_AUDIO_LIST: [
             // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-             {
+            {
+                  name: '冬眠·2023(1.2X)',
+                  artist: '缘为冰',
+                  url: 'https://music.163.com/song/media/outer/url?id=2160097238.mp3',
+                  cover:
+                        'https://p1.music.126.net/jWpD9zpLj5xXHAr2glgNvA==/109951169625177707.jpg'
+          },
+{
+                  name: '与我无关',
+                  artist: '阿冗',
+                  url: 'https://music.163.com/song/media/outer/url?id=1413585838.mp3',
+                  cover:
+                        'https://p2.music.126.net/x-jReyGkM5OTKUEtTqXGoA==/109951164597332931.jpg'
+          },
+{
+                  name: '把回忆拼好给你',
+                  artist: 'CashMoon',
+                  url: 'https://music.163.com/song/media/outer/url?id=2600318926.mp3',
+                  cover:
+                        'https://p2.music.126.net/bkZsHPWmLylc0ViXx2pD_Q==/109951169701716659.jpg'
+          },
+{
+                  name: '最初的记忆',
+                  artist: 'CashMoon',
+                  url: 'https://music.163.com/song/media/outer/url?id=2159061173.mp3',
+                  cover:
+                        'https://p2.music.126.net/OrDHIIOqUgYeJXUZh0ohVg==/109951169618137503.jpg'
+          },
+{
+                  name: '星星在唱歌',
+                  artist: '司南',
+                  url: 'https://music.163.com/song/media/outer/url?id=1807381939.mp3',
+                  cover:
+                        'https://p2.music.126.net/sKikAjTxCmWnWTKoul6Sqg==/109951165574428569.jpg'
+          },
+{
+                  name: '如果可以(1.2X)',
+                  artist: '攸 /  缘为冰 /  冰冷心事',
+                  url: 'https://music.163.com/song/media/outer/url?id=2147215443.mp3',
+                  cover:
+                        'https://p2.music.126.net/4O0DVITMh2ga0KWja5VNIQ==/109951169788602972.jpg'
+          },
+{
+                  name: '你在 不在',
+                  artist: ' 很美味',
+                  url: 'https://music.163.com/song/media/outer/url?id=2129666437.mp3',
+                  cover:
+                        'https://p2.music.126.net/m40nvxXLMfbLEyB2mX8aHw==/109951169364490680.jpg'
+          },
+{
+                  name: '如果我们在余生相遇·天秤座',
+                  artist: ' RE-D /  是二哈ya',
+                  url: 'https://music.163.com/song/media/outer/url?id=2157299081.mp3',
+                  cover:
+                        'https://p2.music.126.net/X4bcAah3TxTjQSYHOCDW0w==/109951169601142233.jpg'
+          },
+{
+                  name: '点亮了星空',
+                  artist: ' 洋洋不瘦 /  懿炔',
+                  url: 'https://music.163.com/song/media/outer/url?id=2121866918.mp3',
+                  cover:
+                        'https://p2.music.126.net/ligXYIFOFKUg-y0_8I_19w==/109951169294481585.jpg'
+          },
+{
+                  name: '爱一点',
+                  artist: ' CashMoon',
+                  url: 'https://music.163.com/song/media/outer/url?id=2118409028.mp3',
+                  cover: 'https://p2.music.126.net/lgzih1Im8KYzeVjtWoR52g==/109951169303447151.jpg'
+          },
+
+            {
                   name: '5:20AM',
                   artist: 'soldier',
                   url: 'https://music.163.com/song/media/outer/url?id=2118204311.mp3',
