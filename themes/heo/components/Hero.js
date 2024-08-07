@@ -77,7 +77,7 @@ function Banner(props) {
         {/* 遮罩 */}
         <div id='banner-cover' style={{ backdropFilter: 'blur(15px)' }} className={'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'}>
             <div className='ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in'>
-                <div className='text-7xl text-white font-extrabold'>随便逛逛</div>
+                <div className='text-7xl text-white font-extrabold'>我要逛逛</div>
                 <div className='-ml-3 text-gray-300'><ArrowSmallRight className={'w-24 h-24 stroke-2'} /></div>
             </div>
         </div>
@@ -270,7 +270,7 @@ function TodayCard({ cRef }) {
                     <div id='more' className='select-none'>更多推荐</div>
                 </div>
             </div>
-            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('http://p1.meituan.net/csc/1872479ff0ee65a81e58f54ef228994d504329.png') no-repeat center /cover" }}></div>
+            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://t.mwm.moe/ycy') no-repeat center /cover" }}></div>
         </div>
     </div>
 }

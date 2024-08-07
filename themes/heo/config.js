@@ -1,26 +1,26 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2020-04-01', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2024-01-21', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://notion.deserce.top/'},
- 
+    { title: '欢迎来到我的博客', url: 'https://not.mcy.cloudns.org/'},
+    { title: '博客搭建文档', url: 'https://docs.tangly1024.com'},
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享热爱',
-  HERO_TITLE_2: '投资理财',
-  HERO_TITLE_3: '陶博士',
-  HERO_TITLE_4: '选对股买对时机',
-  HERO_TITLE_5: '三七之路_2023',
-  HERO_TITLE_LINK: 'https://notion.deserce.top/article/4edd4108-9db5-4204-8f28-31751f51c042',
+  HERO_TITLE_1: '安卓应用',
+  HERO_TITLE_2: '电脑软件',
+  HERO_TITLE_3: '茗辰原',
+  HERO_TITLE_4: '精选为你而来',
+  HERO_TITLE_5: '茗辰原_2024',
+  HERO_TITLE_LINK: 'https://not.mcy.cloudns.org',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HERO_CATEGORY_1: { title: '安卓应用', url: '/tag/安卓应用' },
+  HERO_CATEGORY_2: { title: '电脑软件', url: '/tag/电脑软件' },
+  HERO_CATEGORY_3: { title: '实用推荐', url: '/tag/实用推荐' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '推荐',
@@ -35,7 +35,7 @@ const CONFIG = {
     '🤖️ 数码科技爱好者',
     '🧱 团队小组发动机'
   ],
-  INFO_CARD_URL: 'https://github.com/deserce/NotionNext', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://github.com/mingcy/NotionNext', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -98,10 +98,10 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://join.skype.com/klC8HQ5pFrXO',
+  SOCIAL_CARD_TITLE_1: '交流QQ',
+  SOCIAL_CARD_TITLE_2: '加入我的QQ讨论分享',
+  SOCIAL_CARD_TITLE_3: '点击加入QQ',
+  SOCIAL_CARD_URL: 'https://qm.qq.com/q/esjVLyAaXe',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置

@@ -49,6 +49,7 @@ const Footer = ({ title }) => {
 
             </div>
         </div>
+  
         </footer >
   )
 }
