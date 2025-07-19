@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://notion.deserce.top/'},
+    { title: '欢迎来到我的博客', url: 'https://notion.deserce.dpdns.org/'},
  
   ],
 
@@ -15,7 +15,7 @@ const CONFIG = {
   HERO_TITLE_3: '陶博士',
   HERO_TITLE_4: '选对股买对时机',
   HERO_TITLE_5: '三七之路_2023',
-  HERO_TITLE_LINK: 'https://notion.deserce.top/article/4edd4108-9db5-4204-8f28-31751f51c042',
+  HERO_TITLE_LINK: 'https://notion.deserce.dpdns.org/article/4edd4108-9db5-4204-8f28-31751f51c042',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
